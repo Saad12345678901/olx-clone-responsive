@@ -345,7 +345,7 @@ header{
     .menu{
       display: flex;
       overflow-x: scroll;   
-      margin-left: 25px; 
+      margin-left: 35px; 
       
       flex-wrap: nowrap;
     }
@@ -353,7 +353,7 @@ header{
       text-align: center;
     }
     .categorie-div h2{
-         margin-left: 25px;
+         margin-left: 35px;
     }
     .search input {
       width: 125px;
@@ -383,7 +383,7 @@ header{
   .allcategorie{
     justify-content: center;display: flex;
     overflow-x: scroll;
-    margin-left: 25px;
+    margin-left: 35px;
     flex-wrap: nowrap;
     
   }
