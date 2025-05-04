@@ -336,7 +336,7 @@ header{
     .location{
       display: flex;
       align-items: center;
-      margin-left: 50px;
+      margin-left: 60px;
       
     }
     .location input{
@@ -406,6 +406,8 @@ header{
     }
     .box{
       gap: 5px;
+      position: relative;
+      left: 45px;
     }
   }
   
