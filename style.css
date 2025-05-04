@@ -250,14 +250,10 @@ header{
     }
   }
   @media(max-width:780px){
-    .buttons{
-        display: none;
-    }
+    
   }
   @media(max-width:890px){
-    .buttons{
-        display: none;
-    }
+    
   }
   @media (max-width: 768px) {
     .search input {
@@ -301,21 +297,30 @@ header{
       width: 45%;
       height: auto;
     }
-    .buttons{
-      display: none;
-    }
+    
   }
   
   @media (max-width: 480px) {
     body {
-      margin: 0;
-      padding: 0;
+      margin: 0px;
+      padding: 0px;
       flex-shrink: 0;
     }
+    header{
+   
+      background-color: white;
+      position: none;
+     padding: 0px;
+      
+      
+  }
+  
     .top {
       display: flex;
       align-items: center;
       justify-content: center;
+      
+      
     }
     .bottom{
       display: flex;
@@ -323,12 +328,19 @@ header{
       justify-content: center;
       object-fit: cover;
       margin: 0px;
+      position: sticky;
+      top: 0px;
+      z-index: 1000;
+      
     }
     .location{
       display: flex;
       align-items: center;
+      margin-left: 50px;
       
-      padding: 5px;
+    }
+    .location input{
+      width: 150px;
     }
     .menu{
       display: flex;
@@ -337,7 +349,10 @@ header{
       flex-wrap: nowrap;
     }
     .search input {
-      width: 100px;
+      width: 125px;
+    }
+    .buttons a{
+      display: none;
     }
   
     .categorie-card {
@@ -346,9 +361,10 @@ header{
     }
   
     .sell {
-      flex-direction: row;
-      font-size: 14px;
-      padding: 8px;
+      position: fixed;
+      bottom: 0px;
+      right: 100px;
+      
     }
   
     .heart {
@@ -368,6 +384,18 @@ header{
     }
     .search .location{
         gap: 10px;
+    }
+    footer{
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+      padding: 0px;
+      margin-right: 0px;
+      width:450px ;
+      gap: 5px;
+    }
+    .box{
+      gap: 5px;
     }
   }
   
