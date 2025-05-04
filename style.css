@@ -327,7 +327,7 @@ header{
       align-items: center;
       justify-content: center;
       object-fit: cover;
-      margin: 0px;
+      
       position: sticky;
       top: 0px;
       z-index: 1000;
@@ -344,9 +344,16 @@ header{
     }
     .menu{
       display: flex;
-      overflow-x: scroll;    
+      overflow-x: scroll;   
+      margin-left: 25px; 
       
       flex-wrap: nowrap;
+    }
+    .product-heading{
+      text-align: center;
+    }
+    .categorie-div h2{
+         margin-left: 25px;
     }
     .search input {
       width: 125px;
@@ -358,12 +365,14 @@ header{
     .categorie-card {
       width: 100%;
       margin: 10px 0;
+      margin-left: 25px;
     }
   
     .sell {
       position: fixed;
       bottom: 0px;
-      right: 100px;
+      right: 200px;
+      
       
     }
   
@@ -374,12 +383,13 @@ header{
   .allcategorie{
     justify-content: center;display: flex;
     overflow-x: scroll;
-    
+    margin-left: 25px;
     flex-wrap: nowrap;
     
   }
     .product-card {
       margin: 5px 0;
+      margin-left: 50px;
       
     }
     .search .location{
